@@ -2,24 +2,24 @@
 ## Reading Completed
 Chapter 6 - The Pipeline: Connecting Commands
 ## Key Takeaways
-1.
-2.
-3.
+1. PowerShell passes actual objects down the pipeline, not plain text.
+2. `Get-Member` lets you check an object's hidden properties and methods.
+3. Using specific properties makes filtering data way easier.
 ## Object Investigation
 ### Date Object
 Interesting Properties:
--
--
--
+-DayOfWeek
+- DayOfYear
+- TimeOfDay
 ### Process Object
 Useful Property:
--
+-CPU
 ### Azure Subscription Object
 Useful Property:
--
+-Tenant ID
 ## AI Reflection
 ### Did AI help?
 ### What should be verified?
 ## Final Reflection
-The most useful thing I learned was:
+The most useful thing I learned was:how to get get-member lets me see what data an object is holding.
 The question I still have is:How do I actually use these properties inside a real script later on?
